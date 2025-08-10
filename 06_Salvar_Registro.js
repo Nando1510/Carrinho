@@ -17,7 +17,7 @@ function salvar_Resgistro(){
   }
 
   //produtos.push pois vai adicionar o valor a cada linha do array
-  nome_Array.push({ id: proximoId++, nome_Input1, npme_Input2, nome_Input3 });
+  nome_Array.push({ id: proximoId++, nome_Input1, nome_Input2, nome_Input3 });
 
   carregarDados();
 
