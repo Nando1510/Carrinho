@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Loja do Fernando</title>
+    </head>
+<body>
+    <div class="container">
+        <h1>Loja do Fernando</h1>
+            <form id="limpar_Inputs" >
+                <div class="card">
+                    
+                        <div class="lineInput">
+                            <label>Produto:</label>
+                            <input type="text" id="produto" placeholder="Nome do produto">
+                        </div>
+                        <div class="lineInput">
+                            <label>Valor unitário:</label>
+                            <input type="number" id="preco" placeholder="Valor unitário do produto">
+                        </div>
+                        <div class="lineInput">
+                            <label for="quantidade">Quantidade:</label>
+                            <input type="number" id="quantidade" placeholder="Quantidade">
+                        </div>
+
+                        <div class="buttons">
+                            <button type="button" name="salvar" id="salvar">Salvar</button>
+                            <button type="button" name="cancelar" id="cancelar">Cancelar</button>
+                        </div>
+                    
+                </div>
+            </form>
+
+        <div>
+            <table>
+               
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Produto</th>
+                            <th>Quantidade</th>
+                            <th>Valor unitário deste produto</th>
+                            <th>Valor total deste produto</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                
+                <tbody id="tbody">
+                    <!-- os dados da tabela serão adicionados dinamicamente com JavaScript -->
+                </tbody>
+            </table>
+        </div>
+
+        <div id="total-compras">Total das compras: R$ 0,00</div>
+    </div>
+
+    <script src="carrinho.js"></script>
+</body>
+</html>
