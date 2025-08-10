@@ -11,7 +11,7 @@ botao_Cancelar.addEventListener('click', limpar_Inputs);
       document.getElementById('limpar_Inputs').reset();
   };
 
-
+//GUARDA O ID DO BOTÃO SALVAR NA VARIÁVEL  botao_Salvar
 const botao_Salvar = document.getElementById('salvar');
 botao_Salvar.addEventListener('click', salvar_Resgistro);
 
