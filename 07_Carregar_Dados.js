@@ -8,6 +8,7 @@ function carregarDados() {
       const tr = document.createElement('tr');
       tr.innerHTML = `
         <td>${item.id}</td>
+        
         <td>${item.nome_Input1}</td>
 
         //CASO SEJA UM PREÇO, POR EXEMPLO
